@@ -1,0 +1,71 @@
+.purple {
+    background: linear-gradient(to top, #322539, #745083);
+    border-top: 1px solid #000;
+    height: 340px;
+    margin-top: 168px;
+}
+
+.purple-width {
+    display: flex;
+    width: 960px;
+    margin: auto;
+    padding: 74px 0 0 70px;
+}
+
+.rubric {
+    margin: 0 0 0 26px;
+    width: 320px;
+}
+
+.icon-tool {
+    background: url(../img/sprite.png) 0 0 no-repeat;
+    height: 32px;
+    margin: 8px 0 0 -25px;
+    padding: 0 0 0 0;
+    width: 35px;
+}
+
+.icon-dialog {
+    background: url(../img/sprite.png) -31px 0 no-repeat;
+    height: 30px;
+    margin: 8px 0 0 25px;
+    width: 37px;
+}
+
+.icon-melody {
+    background: url(../img/sprite.png) -62px 0 no-repeat;
+    height: 30px;
+    margin: 8px 0 0 25px;
+    width: 34px;
+}
+
+.rubric__caption {
+    color: #fff;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 30px;
+    margin: 0 0 0 0;
+}
+
+.rubric__text {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    height: 126px;
+    line-height: 1.5;
+    margin: 5px 0 11px -1px;
+    overflow: hidden;
+    width: 215px;
+}
+
+.rubric__link {
+    color: #fff;
+    font-family: "League Gothic", sans-serif;
+    font-size: 18px;
+    margin: 24px 0 0 0;
+    padding: 0 0 0 159px;
+    text-decoration: none;
+}
+
+.rubric__link:hover {
+    text-shadow: 0 0 6px #fff;
+}

@@ -1,0 +1,42 @@
+/* ----------- Slider ------------ */
+.slider {
+    background: rgba(0, 0, 0, 0.2);
+    height: 400px;
+    margin-top: -568px;
+}
+
+.content-width {
+    display: flex;
+    width: 960px;
+    margin: auto;
+}
+
+.slider-text {
+    font-family: 'League Gothic', sans-serif;
+    margin: 32px 0 0 1px;
+    width: 520px;
+}
+
+.slider-text__caption {
+    color: #fff;
+    font-size: 60px;
+    margin: 40px 0 0 -2px;
+}
+
+.slider-text__slogan {
+    color: #edbfff;
+    font-size: 32px;
+    margin: -9px 0 0 -2px;
+}
+
+.slider-text__paragraph {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 -2px;
+    width: 505px;
+}
+
+.slider-img__img {
+    margin: -16px 0 0 93px;
+}

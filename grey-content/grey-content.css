@@ -1,0 +1,53 @@
+.grey {
+    display: flex;
+    background: #ececec;
+    height: 398px
+}
+
+.grey-width {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 960px;
+}
+
+.rubric-grey {
+    height: 203px;
+    margin: -6px 33px 0 26px;
+
+}
+
+.rubric-grey__caption {
+    font-family: "League Gothic", sans-serif;
+    font-size: 48px;
+}
+.rubric-grey__caption--smaller {
+    font-size: 30px;
+}
+
+.rubric-grey__caption--diff {
+    color: #b9b9b9;
+}
+
+.rubric-grey__sub-caption {
+    color: #c5c5c5;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin: 4px 0 0 0;
+}
+
+.rubric-grey__text {
+    color: #787878;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    height: 157px;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+    width: 278px;
+}
+
+.rubric-grey__text--smaller {
+    height: 113px;
+    margin: 11px 0 0 0;
+}

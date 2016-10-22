@@ -1,0 +1,43 @@
+footer {
+    background: url(background-foot-footer-960.jpg) no-repeat;
+    display: flex;
+    height: 114px;
+}
+
+.footer-width {
+    display: flex;
+    margin: auto;
+    width: 965px;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-menu__item {
+    list-style: none;
+    margin: 0 37px 0 5px;
+
+}
+
+.footer-menu__link {
+    color: #fff;
+    font-family: "League Gothic", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 6px #000;
+}
+
+.signature {
+    margin: 6px 0 0 258px;
+}
+
+.signature__text {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+.signature__text--bold {
+    font-weight: bold;
+}
