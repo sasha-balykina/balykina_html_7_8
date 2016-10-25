@@ -18,7 +18,7 @@
 }
 
 .icon-tool {
-    background: url(../img/sprite.png) 0 0 no-repeat;
+    background: url(sprite.png) 0 0 no-repeat;
     height: 32px;
     margin: 8px 0 0 -25px;
     padding: 0 0 0 0;
@@ -26,14 +26,14 @@
 }
 
 .icon-dialog {
-    background: url(../img/sprite.png) -31px 0 no-repeat;
+    background: url(sprite.png) -31px 0 no-repeat;
     height: 30px;
     margin: 8px 0 0 25px;
     width: 37px;
 }
 
 .icon-melody {
-    background: url(../img/sprite.png) -62px 0 no-repeat;
+    background: url(sprite.png) -62px 0 no-repeat;
     height: 30px;
     margin: 8px 0 0 25px;
     width: 34px;

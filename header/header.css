@@ -15,7 +15,11 @@ header {
     width: 960px;
     margin: auto;
 }
-
+@media screen and (max-width: 768px){
+    .content-width {
+        display: block;
+    }
+}
 .logo {
     padding: 67px 0 0 0;
 }
@@ -41,3 +45,4 @@ header {
 .menu__item:hover {
     border-bottom: 2px solid #edbfff;
 }
+
