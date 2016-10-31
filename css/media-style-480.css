@@ -1,81 +1,96 @@
 @media screen and (max-width: 480px) {
+    .header {
+        height: 845px;
+    }
+
     .header-width {
         flex-direction: column;
         align-items: center;
         width: 260px;
     }
-
+    .logo {
+        margin-left: 55px;
+    }
     .menu {
         flex-direction: column;
-        height: 43px;
-        margin: 13px auto;
+        height: 41px;
+        margin: 26px auto;
         overflow: hidden;
-        width: 245px;
+        width: 243px;
     }
     .menu:hover {
         border: 1px solid #000;
-        border-radius: 5px;
+        border-radius: 10px;
         background: rgba(63,50,71,0.7);
-        height: 260px;
+        height: 246px;
         overflow: visible;
-
-    }
-    .menu:hover .menu__item {
-        border-top: 1px solid #523f5a;
-        border-bottom: 1px solid #36283e;
-        width: 245px;
-    }
-    .menu__item {
-        padding: 5px 0;
-        margin: 0 auto;
     }
     .menu__item:hover {
         background: rgba(43, 34, 49, 0.8);
-        border-bottom: 3px solid #edbfff;
+        }
+    .menu:hover .menu__item {
+        border-top: 1px solid #523f5a;
+        border-bottom: 1px solid #36283e;
+    }
+    .menu__item {
+        width: 243px;
+        height: 41px;
+        padding: 5px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu li:first-child {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .menu li:last-child {
+        border-radius: 0 0 10px 10px;
     }
     .menu__link {
         text-shadow: none;
     }
     /* ----------- Slider ------------ */
     .slider {
-        margin-top: -603px;
+        margin-top: -643px;
+        height: 246px;
     }
     .slider-width {
-        width: 730px;
+        display: flex;
+        margin: 0 0 0 0;
+        width: 430px;
     }
     .slider-text {
-        margin: 55px 0 0 23px;
-        width: 280px;
+        margin: 89px 0 0 23px;
     }
     .slider-text__caption {
-        font-size: 48px;
+        margin: 0 0 0 0;
+        font-size: 36px;
     }
     .slider-text__slogan {
-        font-size: 24px;
+        font-size: 18px;
         height: 24px;
-        margin: 0 0 0 -2px;
-        overflow: hidden;
-        width: 280px;
+        margin: 0 0 0 0;
+        width: 205px;
     }
     .slider-text__paragraph {
-        font-size: 16px;
-        height: 90px;
-        line-height: 1.5;
-        margin: 12px 0 0 -2px;
-        overflow: hidden;
-        width: 280px;
+        display: none;
+        margin: 0 0 0 0;
     }
     .slider-img__img {
-        margin: -23px 0 0 123px;
+        height: 302px;
+        margin: -9px 0 0 20px;
+        width: 190px;
     }
     /* ----------- Purple ------------ */
     .purple {
-        margin-top: 155px;
+        height: 599px;
+        margin-top: 99px;
     }
     .purple-width {
+        flex-direction: column;
         margin: auto;
-        padding: 74px 0 0 0;
-        width: 730px;
+        padding: 41px 0 0 47px;
+        width: 430px;
     }
     .rubric {
         margin: 0 0 0 26px;
@@ -83,54 +98,54 @@
     }
     .rubric__caption {
         font-size: 24px;
+        margin: -33px 0 0 0;
     }
     .icon-tool {
-        height: 32px;
-        margin: 2px 0 0 10px;
-        width: 27px;
+        margin: 36px 0 0 -25px;
     }
     .icon-dialog {
-        height: 30px;
-        margin: 5px 0 0 40px;
-        width: 30px;
+        margin: 23px 0 0 -23px;
     }
     .icon-melody {
-        height: 30px;
-        margin: 5px 0 0 50px;
-        width: 30px;
+        margin: 29px 0 0 -29px;
     }
     .rubric__text {
-        height: 137px;
-        line-height: 1.5;
-        margin: 0 0 14px 0;
-        width: 155px;
+        height: 72px;
+        width: 375px;
     }
     .rubric__link {
-        margin: 0 0 0 -69px;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
     }
     /* ----------- White ------------ */
+    .white {
+        height: 785px;
+    }
     .white-width {
-        width: 730px;
+        flex-direction: column;
+        width: 430px;
     }
     .starts-here {
-        margin: 100px 58px 0 0;
-        width: 336px;
+        margin: 67px 0 0 -3px;
+        width: 441px;
     }
     .starts-here__caption {
-        font-size: 24px;
+        display: flex;
+        font-size: 30px;
         margin: 28px 0 0 62px;
-        width: 88px;
+        width: 209px;
     }
     .starts-here__pink-font {
-        font-size: 24px;
+        font-size: 30px;
     }
     .starts-here__text {
-        height: 135px;
-        overflow: hidden;
-        width: 232px;
+        height: 180px;
+        font-size: 15.5px;
+        line-height: 1.5;
+        width: 340px;
     }
     .recent-updates {
-        margin: 128px 0 0 0;
+        margin: 66px 0 0 57px;
     }
     .admin-list__item {
         height: 50px;
@@ -139,37 +154,53 @@
         width: 260px;
     }
     .recent-updates__link {
-        margin: 0 0 0 235px;
+        margin: 0 0 0 250px;
     }
     .partners {
+        background: url("../img/background-partners-480.jpg") 50% 50% no-repeat;
+        height: 205px;
         padding: 28px 0 0 0;
     }
+    .partners img {
+        display: none;
+    }
     /* ----------- Grey ------------ */
+    .grey {
+        height: 669px;
+    }
     .grey-width {
-        width: 730px;
+        flex-direction: column;
+        width: 436px;
     }
     .rubric-grey {
-        height: 190px;
-    }
-    .rubric-grey__caption {
-        font-size: 24px;
+        height: 175px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 436px;
     }
     .rubric-grey__text {
-        width: 205px;
+        height: 90px;
+        overflow: hidden;
+        width: 436px;
     }
     /* ----------- Footer ------------ */
     footer {
-        height: 200px;
-        background-size: cover;
+        height: 202px;
     }
     .footer-width {
-        display: block;
-        margin: 43px 0 0 5px;
-        width: 730px;
+        display: flex;
+        flex-direction: column;
+        width: 436px;
+    }
+    .footer-menu {
+        margin: 0 auto;
+    }
+    .footer-menu__item {
+        margin: 0 0 0 18px;
     }
 
     .signature {
-        margin: 32px 0 0 590px;
+        margin: 32px auto;
     }
 }
 
